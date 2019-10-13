@@ -1,0 +1,23 @@
+
+# Ignore all
+*
+
+# Unignore all dirs
+!*/
+
+# Unignore git
+!.gitignore
+
+# ignore all special inernal hls dirs
+*/*/syn/
+*/*/sim/
+*/*/csim/
+*/*/.autopilot/
+
+# Unignore all code files
+!*.c
+!*.cpp
+!*.h
+!*.hpp
+
+
